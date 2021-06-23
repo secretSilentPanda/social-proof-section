@@ -1,0 +1,27 @@
+$very-Dark-Magenta: hsl(300, 43%, 22%);
+$soft-Pink: hsl(333, 80%, 67%);
+$dark-Grayish-Magenta: hsl(303, 10%, 53%);
+$light-Grayish-Magenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+// resets
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// mixins
+
+@mixin cardify(
+  $color: $very-Dark-Magenta,
+  $bg-color: $light-Grayish-Magenta,
+  $radius: 10px
+) {
+  background-color: $bg-color;
+  color: $color;
+  border-radius: $radius;
+}
