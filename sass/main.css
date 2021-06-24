@@ -96,6 +96,11 @@ main .row2 .testimonial__content {
   font-size: 0.8em;
 }
 
+@media (max-width: 450px) {
+  body {
+    font-size: 0.8rem;
+  }
+}
 @media (min-width: 800px) {
   main {
     max-width: 60%;
@@ -162,9 +167,15 @@ main .row2 .testimonial__content {
     max-width: 32%;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1800px) {
   main {
-    max-width: 50%;
+    max-width: 1500px;
     max-height: 900px;
+  }
+  main .row1 {
+    flex: 0;
+  }
+  main .row2 {
+    flex: 0.7;
   }
 }/*# sourceMappingURL=main.css.map */

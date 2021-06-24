@@ -1,0 +1,16 @@
+// I have no clue how to optimize a page for huge screens.
+
+@media (min-width: 1800px) {
+  main {
+    max-width: 1500px;
+    max-height: 900px;
+
+    .row1 {
+      flex: 0;
+    }
+
+    .row2 {
+      flex: 0.7;
+    }
+  }
+}
