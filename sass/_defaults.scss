@@ -16,7 +16,7 @@ main {
     margin-top: 3em;
 
     .content {
-      animation-duration: 0.3s;
+      animation-duration: 0.3s; //breakpoint animation ;)
     }
 
     .content__heading {
@@ -37,7 +37,7 @@ main {
       margin-bottom: 3.5em;
 
       .rating__item {
-        animation-duration: 0.3s;
+        animation-duration: 0.3s; //breakpoint animation ;)
       }
 
       .rating__item span img {
@@ -46,7 +46,7 @@ main {
     }
 
     .card-light {
-      @include cardify();
+      @include cardify(); //mixin
       padding: 0.6em 3em;
       box-shadow: 7px 7px 23px -22px #000000;
 
@@ -58,10 +58,10 @@ main {
   }
 
   .card-dark {
-    @include cardify($light-Grayish-Magenta, $very-Dark-Magenta);
+    @include cardify($light-Grayish-Magenta, $very-Dark-Magenta); //mixin
     padding: 2em;
     margin-bottom: 1em;
-    animation-duration: 0.3s;
+    animation-duration: 0.3s; //breakpoint animation ;)
   }
 
   .row2 {
